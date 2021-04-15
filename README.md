@@ -2,7 +2,7 @@
 BASIC WEB PAGES
 
 ## Part A
-First page - home.html<br/>
+home.html<br/>
 Inline CSS
 
 ## Part B
