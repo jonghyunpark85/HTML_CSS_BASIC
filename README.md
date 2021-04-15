@@ -7,7 +7,7 @@ Inline CSS
 
 ## Part B
 index.html<br/>
-Internal CSS
+Inline CSS
 
 ## Part C
 index.html<br/>
