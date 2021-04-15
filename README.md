@@ -24,3 +24,6 @@ index.html
 
 ## Part G
 resume.html
+
+## Part H
+index.html
