@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jonghyun Park">
+    <link rel="stylesheet" href="main.css">
+    <title>Assignment3 - PartB</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="mailto:registration@newhotels.net" method="post">
+            <fieldset>
+                <legend> New registration form </legend>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" size="40" name="name" pattern="[A-Za-z -]{1,25}" placeholder="Enter name"
+                                required></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><input type="email" size="40" name="address" placeholder="Enter address"></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone Number:</td>
+                        <td><input type="tel" size="40" name="phone" placeholder="123-456-7890"
+                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td>
+                        <td><input type="number" name="age" min="18" max="75"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail:</td>
+                        <td><input type="email" size="40" name="email" placeholder="example@site.net"
+                                pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Registration Date</td>
+                        <td><input type="date" name="date" id="" required></td>
+                    </tr>
+                    <tr>
+                        <td> Additional Comments:</td>
+                        <td><textarea name="name" rows="15" cols="95"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <div class="bottom">
+                <input type="submit" value="SUBMIT">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
