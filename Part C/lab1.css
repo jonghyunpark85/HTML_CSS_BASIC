@@ -1,0 +1,394 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+/*--- Default Setting ---*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: aliceblue;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+p,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+input,
+textarea,
+button,
+select,
+option {
+	font-family: 'Gelasio', serif;
+	color: #444;
+}
+
+img,
+fieldset {
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+input,
+select,
+button {
+	vertical-align: middle;
+}
+
+img {
+	vertical-align: top;
+}
+
+em,
+address {
+	font-style: normal;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #222;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+hr {
+	width: max-content;
+}
+
+/*--- Contents Setting ----*/
+
+/* Outlint */
+#wrap {
+	width: 100%;
+	height: 100%;
+	margin: 10 auto;
+
+}
+
+body>#wrap {
+	height: auto;
+	min-height: 100%;
+
+}
+
+/*  header start */
+#header {
+	position: relative;
+	padding-bottom: 10px;
+	width: 100%;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+#top {
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+}
+
+.logo {
+	float: left;
+	padding: 15px 0 0 200px;
+}
+
+.logo a {
+	display: block;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	background: url(./photos/logo.jpg) no-repeat;
+	text-indent: -9999em;
+}
+
+.title {
+	display: inline-block;
+	width: 80%;
+	height: 150px;
+}
+
+.title h1 {
+	text-align: left;
+	margin: 10px 10px 0 0;
+	padding: 40px 40px 0 0;
+}
+
+.mainnav {
+	padding-left: 100px;
+	background-color: #005B9B;
+}
+
+.mainnav:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mainnav li {
+	display: inline-block;
+
+}
+
+.mainnav li a {
+	display: block;
+	padding: 0 60px;
+	background-color: #005B9B;
+	color: #ffffff;
+	font: bold 16px/40px 'Arial', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.mainnav li a:hover {
+	color: #660000;
+	background-color: #ffcc00;
+}
+
+/* header end */
+
+/* container start */
+#container {
+	padding-left: 20px;
+}
+
+#container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#about,
+#courses,
+#workexperience,
+#contactme {
+	display: block;
+	width: 90%;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+	border-radius: 25px;
+	border: 2px solid #73AD21;
+	padding-bottom: 20px;
+}
+
+#about h2,
+#courses h2,
+#workexperience h2,
+#contactme h2 {
+	font-family: comic sans MS;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;
+	padding: 40px;
+}
+
+.about-cont {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.about-cont:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.about-cont li {
+	float: left;
+}
+
+.about-cont li a {
+	display: block;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.about-cont li p {
+	text-align: center;
+}
+
+.about-cont li a:hover {
+	color: #660000;
+	background-color: #ffcc00;
+}
+
+.course-cont {
+	display: inline-block;
+
+}
+
+/* Class Time Table */
+table.classes {
+	padding-left: 20px;
+	font-family: "Times New Roman", Times, serif;
+	border: 1px solid #FFFFFF;
+	width: 800px;
+	height: 600px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table.classes td,
+table.classes th {
+	border: 1px solid #000000;
+}
+
+table.classes tbody td {
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+table.classes thead {
+	background: #0B6FA4;
+	border-bottom: 5px solid #FFFFFF;
+
+}
+
+table.classes thead th {
+	font-size: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	border-left: 2px solid #FFFFFF;
+}
+
+table.classes thead td {
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+/* Descriptions of table */
+
+table.course-decs {
+	font-family: Georgia, serif;
+	background-color: #D4EED1;
+	width: 800px;
+	line-height: 1.5em;
+	text-align: center;
+	margin-top: 50px;
+}
+
+table.course-decs td,
+table.course-decs th {
+	border: 1px dotted #24943A;
+	padding: 5px 10px;
+}
+td.decs1 {
+
+	width: 100px;
+	text-align: center;
+}
+td.decs2 {
+
+	text-align: justify;
+}
+table.course-decs tbody td {
+	font-size: 13px;
+}
+
+/* workexperience Section */
+
+details {
+	font-style: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	;
+	line-height: 2.0em;
+}
+
+summary {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* form */
+
+fieldset {
+	display: inline-block;
+	width: 800px;
+	line-height: 1.5em;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+table.form-cont {
+	display: inline-block;
+
+}
+
+table.form-cont td {
+	text-align: justify;
+	padding: 10px;
+}
+
+/* Back to Home */
+#back {
+	position: relative;
+	padding-bottom: 10px;
+	width: 95%;
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+}
+
+#logob {
+	display: inline-block;
+	width: 100%;
+	height: 150px;
+}
+
+#logoback {
+	padding: 15px 0 0 100px;
+}
+
+#logoback a {
+	display: inline-block;
+	overflow: hidden;
+	width: 150px;
+	height: 150px;
+	background: url(./photos/logo.jpg) no-repeat;
+}

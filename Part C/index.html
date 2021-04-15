@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jonghyun Park">
+    <link href="lab1.css" rel="stylesheet" type="text/css">
+    <title>Jonghyun Park's Page</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div id="top">
+                <!-- Title section -->
+                <div class="logo"><a href="#"> LOGO</a></div>
+                <div class="title">
+                    <h1>Welcome to Jonghyun's home </h1>
+                </div>
+            </div>
+            <ul class="mainnav">
+                <!-- Menu Section-->
+                <li><a href="#home"> Home </a></li>
+                <li><a href="#about"> About Me</a></li>
+                <li><a href="#courses"> Courses </a></li>
+                <li><a href="#workexperience"> Work Experiences </a></li>
+                <li><a href="#contactme"> Contact Me </a></li>
+            </ul>
+        </div><!-- End of Header -->
+
+        <hr>
+
+        <div id="container">
+            <div id="about">
+                <!-- introduce about myself -->
+                <h2>About Me</h2>
+                <ul class="about-cont">
+                    <li><a href="#about"><img src="./photos/seoul.png" alt="born" width="400" height="400"></a>
+                        <p> I was born in Seoul, South Korea</p>
+                    </li>
+                    <li><a href="#about"><img src="./photos/calgary.png" alt="stay" width="400" height="400"></a>
+                        <p> I am in Calgary, Canada</p>
+                    </li>
+                    <li><a href="#about"><img src="./photos/small.jpg" alt="food" width="400" height="400"></a>
+                        <p> I like Japanese Sushi</p>
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+
+            <div id="courses">
+                <!-- include table with caption -->
+                <h2>Courses</h2>
+                <div class="course-cont">
+                    <table class="classes">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <td>Mon</td>
+                                <td>Tue</td>
+                                <td>Wen</td>
+                                <td>Thur</td>
+                                <td>Fri</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>09:00</td>
+                                <td rowspan="3"></td>
+                                <td rowspan="2" style="background-color: yellow;">CPRG 256</td>
+                                <td> </td>
+                                <td> </td>
+                                <td rowspan="2" style="background-color: greenyellow;">CPRG 251</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                                <td rowspan="2" style="background-color: greenyellow;">CPRG 251</td>
+                                <td rowspan="2" style="background-color: skyblue;">CPRG 250</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td rowspan="7"></td>
+                                <td rowspan="2" style="background-color: yellow;">CPRG 256</td>
+                            </tr>
+                            <tr>
+                                <td>12:00</td>
+                                <td rowspan="2" style="background-color:#D4EED1;">CMPS 253</td>
+                                <td style="background-color:#D4EED1;">CMPS 253</td>
+                                <td rowspan="2" style="background-color: yellow;">CMPG 256</td>
+                            </tr>
+                            <tr>
+                                <td>13:00</td>
+                                <td rowspan="3"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>14:00</td>
+                                <td></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td>15:00</td>
+                                <td rowspan="3" style="background-color: rosybrown;">HREL 250</td>
+                                <td rowspan="2" style="background-color: skyblue;">CPRG 250</td>
+                            </tr>
+                            <tr>
+                                <td>16:00</td>
+                                <td rowspan="2" style="background-color: skyblue;">CPRG 250</td>
+                                <td rowspan="2" style="background-color: greenyellow;">CPRG 251</td>
+                            </tr>
+                            <tr>
+                                <td>15:00</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <caption>2020 2nd ITSD Time table </caption>
+                    </table>
+
+                    <div id="description">
+                        <table class="course-decs">
+                            <tr>
+                                <td class="decs1"><strong> CMPS 253 </strong></td>
+                                <td class="decs2">Interface Design will introduce the learner to concepts related to
+                                    designing user
+                                    interfaces for software applications that are functional and designed from a user
+                                    perspective. Topics include appropriate documentation, usability engineering, human
+                                    computer interface design standards, screen mock-ups, creation of prototypes, and a
+                                    strong emphasis on information gathering and user interview techniques. </td>
+                            </tr>
+                            <tr>
+                                <td class="decs1"><strong> CPRG 250 </strong></td>
+                                <td class="decs2">In Database Design and Programming, learners will create database
+                                    application
+                                    designs and implement these designs using multiple database vendors. This course
+                                    will show learners an industry used notation for designing database applications.
+                                    Learners will use a structured query language (SQL) to create database applications,
+                                    manipulate data inside of the database, and retrieve information from the database.
+                                    Multiple database vendors will be used in this course to demonstrate the
+                                    standardization of the SQL language and to identify where the language differs
+                                    between vendors. </td>
+                            </tr>
+                            <tr>
+                                <td class="decs1"><strong> CPRG 251 </strong></td>
+                                <td class="decs2">Object-Oriented Programming Essentials is a continuation of Computer
+                                    Programming
+                                    Essentials. This course addresses object-oriented concepts and languages. Learners
+                                    will demonstrate object-oriented concepts using an industry-identified programming
+                                    language. Topics include object-oriented design concepts, graphical user interface
+                                    (GUI), polymorphism, inheritance, exception handling, interfaces, Java Database
+                                    Connection (JDBC) and recursive techniques.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="decs1"><strong> CPRG 256 </strong></td>
+                                <td class="decs2">Web Development Fundamentals will introduce learners to web
+                                    technology and the
+                                    skills required to build a complete website application. Learners will install and
+                                    configure a Web Server in a Windows operating system environment. In addition,
+                                    learners will create and implement Website Applications for both desktop and mobile
+                                    platforms. </td>
+                            </tr>
+                            <tr>
+                                <td class="decs1"><strong> HREL 250 </strong></td>
+                                <td class="decs2">Business Dynamics</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div id="workexperience">
+                <!-- include mini resume -->
+                <h2> Work Experiences </h2>
+                <details open>
+                    <summary>Qualification</summary>
+                    <ol>
+                        <li> Korean, Permanent in CANADA</li>
+                        <li> Experienced Executive Customer Service </li>
+                        <li> Web Design (Photoshop, illustration, CorelDraw, etc)</li>
+                        <li> Web Developer (html, CSS, jQuery, JavaScript, Wordpress, frame work)</li>
+                        <li> Soft programming Developer </li>
+                    </ol>
+                </details>
+                <br>
+                <details open>
+                    <summary>Work Exprience</summary>
+                    <ol>
+                        <li> 2019 - General Laborer - Kanas Corporation, Canada</li>
+                        <li> 2013 ~ 2015 - Web Publisher, Socia Marketer - KOCIA, South Korea </li>
+                        <li> 2014 Executive Customer Service, Technical Supporter - Scicom, Malaysia </li>
+                    </ol>
+                </details>
+                <br>
+                <details>
+                    <summary>Education</summary>
+                    <ol>
+                        <li> Information Technology Software Develop - SAIT, Canada</li>
+                        <li> Hospitality and Tourism Management - Hanyang University, South Korea </li>
+                        <li> Church Music, National Institute for Long-lige Education, South Korea </li>
+                    </ol>
+                </details>
+                <br>
+            </div>
+
+            <hr>
+
+            <div id="contactme">
+                <!-- contact section-->
+                <h2>Contact Me</h2>
+                <form action="mailto:personal@sait.ca" method="post">
+                    <fieldset align="center">
+                        <h3>Information</h3>
+                        <br>
+                        <table class="form-cont">
+                            <tr>
+                                <td>Name:</td>
+                                <td><input type="text" size="25" name="name" placeholder="Enter name"></td>
+                            </tr>
+                            <tr>
+                                <td> Email address: </td>
+                                <td><input type="email" size="25" name="email" placeholder="example@site.net"></td>
+                            </tr>
+                            <tr>
+                                <td>Contact Phone:</td>
+                                <td><input type="tel" size="25" name="phone" placeholder="123-456-7890"></td>
+                            </tr>
+                            <tr>
+                                <td>Subject: </td>
+                                <td><input type="text" size="50" name="subject" placeholder="Enter Subject"></td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <h3>Message Type</h3>
+                        <br>
+                        <input type="radio" name="type" value="personal" size="10" checked>Personal
+                        <input type="radio" name="type" value="work" size="10">Work
+                        <br>
+                        <br>
+                        <h3>Additional comments</h3>
+                        <br>
+                        <textarea name="name" rows="15" cols="95"></textarea>
+                    </fieldset>
+                    <br>
+                    <div class="bottom" align="center">
+                        <input type="submit" value="SUBMIT">
+                        <input type="reset" value="RESET">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="back">
+            <div id="logob">
+                <div id="logoback"><a href="#" title="Home"></a></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
