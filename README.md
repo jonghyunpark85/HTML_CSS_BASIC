@@ -19,4 +19,8 @@ index.html
 ## Part E
 register.html
   
-  
+## Part F
+index.html
+
+## Part G
+resume.html
