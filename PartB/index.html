@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Jonghyun Park">
+  <title>Survey</title>
+</head>
+<body>
+  <div id="wrap" style="width: 800px;">
+  <div class="top" align="center">
+    <h1>Survey about SAIT</h1>
+    <p>
+      This web page will be a survey that allows SAIT students to provide feedback about the SAIT campus.
+    </p>
+  </div>
+  <div class="container" style="font-size: 12pt;">
+    <form action="http://www.sait.net" method="post">
+      <fieldset style="display: block; width: 800px; line-height: 1.5em; margin-left: 2px; margin-right: 2px; border: solid;">
+        <h3>Information</h3>
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td><input type="text" size="25" name="name" placeholder="Enter name"></td>
+          </tr>
+          <tr>
+            <td> Email address: </td>
+            <td><input type="email" size="25" name="email" placeholder="example@site.net"></td>
+          </tr>
+          <tr>
+            <td>Contact Phone:</td>
+            <td><input type="tel" size="25" name="phone" placeholder="123-456-7890"></td>
+          </tr>
+        </table>
+        <br>
+        <hr color="grey" width="50%">
+        <br>
+        <h3>What do you most like about campus? </h3>
+        <input type="checkbox" name="liked1" value="location" size="10" checked>Campus location
+        <input type="checkbox" name="liked2" value="athletic" size="10">Athletic Centre
+        <input type="checkbox" name="liked3" value="student" size="10">Student Centre
+        <input type="checkbox" name="liked4" value="lab" size="10">Lab Classes
+        <br>
+        <br>
+        <hr color="grey" width="50%">
+        <br>
+        <h3>Why did you become interested in SAIT? </h3>
+        <input type="radio" name="interested" value="opne" size="10" checked>Open House
+        <input type="radio" name="interested" value="advertising" size="10">Advertising
+        <input type="radio" name="interested" value="counselling" size="10">School Counselling
+        <input type="radio" name="interested" value="word" size="10">Word of Mouth
+        <br>
+        <br>
+        <hr color="grey" width="50%">
+        <br>
+        <h3>Additional comments</h3>
+        <textarea name="name" rows="15" cols="95"></textarea>
+      </fieldset>
+      <br>
+      <div class="bottom" align="center">
+        <input type="submit" value="SUBMIT">
+        <input type="reset" value="RESET">
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
+
+</html>
