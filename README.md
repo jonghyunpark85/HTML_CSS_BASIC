@@ -12,5 +12,11 @@ Inline CSS
 ## Part C
 index.html<br/>
 External CSS
+
+## Part D
+index.html
+
+## Part E
+register.html
   
   
